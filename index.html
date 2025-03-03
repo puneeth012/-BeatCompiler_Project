@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatCompiler - Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="player">
+        <div class="cover">
+            <img id="album-cover" src="" alt="Album Cover">
+        </div>
+        <h3 class="song-title" id="song-title">Now Playing</h3>
+        <audio id="audio"></audio>
+        <input type="range" id="progress" value="0">
+        <p id="time-display" style="font-family: Arial, Helvetica, sans-serif;">0:00 / 0:00</p>
+        <div class="controls">
+            <button onclick="prevSong()">⏮</button>
+            <button id="playPause" onclick="togglePlay()">▶</button>
+            <button onclick="nextSong()">⏭</button>
+            <button onclick="randomSong()">🔀</button>
+        </div>
+       
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
