@@ -20,6 +20,17 @@ let songs = [
         title: "Blinding Lights",
         cover: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png"
     }
+    , {
+        src: "./Songs/Alan-Walker-Faded-(RawPraise.ng).mp3",
+        title: "Alan Walker Faded",
+        cover: "https://www.rawpraise.ng/wp-content/uploads/2024/05/auto-draft-Mp3-Download-98.jpg.webp"
+    }
+    ,
+    {
+        src: "./Songs/ridonezz_sia-feat-sean-paul-cheap-thrills.mp3",
+        title: "Cheap Thrills",
+        cover: "https://c.saavncdn.com/906/Cheap-Thrills-English-2020-20221121210359-500x500.jpg"
+    }
 ];
 let currentSong = 0;
 
