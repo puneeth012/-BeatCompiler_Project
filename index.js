@@ -11,7 +11,7 @@ let songs = [
         cover: "./Images/download.jpg"
     },
     {
-        src: "./Songs/Shape-Of-You-Instrumental.mp3.crdownload",
+        src: "./Songs/Shape-Of-You-Instrumental.mp3",
         title: "Shape of You",
         cover: "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png"
     },
